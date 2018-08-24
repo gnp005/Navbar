@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+:root{
+  font-size: 16px;
+}
+
+#navbar{
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0.3rem 0.2rem rgba(68,108,179,0.7);
+  padding: 0.5rem;
+  background: rgba(68,108,179,1);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-height: 7vh;
+}
+
+#nav-brand a h3{
+  color: white;
+  font-size: 2rem;
+
+}
+
+.nav-items{
+  font-size: 1.5rem;
+  padding: 0.25rem;
+  overflow-y: visible;
+}
+
+.nav-items a{
+  color: rgb(255,255,255);
+}
+
+.nav-items ul li{
+  list-style: none;
+  padding: 0.2rem;
+
+  background: grey;
+
+}
+
+.nav-items ul li a{
+  color: black;
+
+}
+#nav-list{
+
+  background:rgba(68,108,179,0.7);
+  min-width: 100%;
+}
+
+#nav-list ul li a{
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
